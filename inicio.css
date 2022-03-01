@@ -1,0 +1,293 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0%;
+    font-family: "ubuntu";
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    width: 100%;
+}
+    
+header section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 2% 4%;
+}
+
+.container-logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.texto-logo {
+    color: white;
+    font-size: 55px;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.menu {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3% 4%;
+}
+
+
+
+/* Corpo do site */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    margin-bottom: 170px;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.parte-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 140px 0px 140px ;
+}
+
+.texto-banner h1 {
+    color: #FF4081;
+    font-size: 60px;
+    font-weight:  bold;
+    margin: 0% 0%;
+}
+
+.texto-banner p {
+    color: #555555;
+    font-size: 27px;
+}
+
+.texto-banner button {
+    background-color: white;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    color: #FF4081;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    padding: 2% 4%;
+}   
+
+.img-banner {
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+}
+
+.parte-2 {
+    background-color: #F6F6F6 ;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.curso-home {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 4%;
+    align-items: center;
+    text-align: center;
+}
+
+.curso-home h2 {
+    color: #FF4081;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.curso-home button {
+    background-color: #FF4081;
+    color: white;
+    font-size: 20px;
+    border-radius: 60px;
+    width: 230px;
+    height: 50px;
+}
+
+.curso-home img {
+    width: 275px;
+    height: 270px ;
+    margin-top: 80px;
+    
+}
+
+.parte-3 {
+    width: 100%;
+    height: 19%;
+    padding: 1% 2%;
+}
+
+.titulo-2 {
+    color: #009688;
+    font-size: 30px;
+    margin-left: 6%;
+    margin-top: 80px;
+}
+
+.comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.comentario-individual {
+    display: flex;
+    padding: 1% 2%;
+}
+
+.comentario-individual p {
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.img-comentarios {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 1%;
+}
+
+.parte-4 {
+    background-color: #F6F6F6 ;
+    width: 100%;
+    height: 30%;
+    margin-top: 40px;
+}
+
+.mais-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+.conteudo {
+    padding: 2% 4%;
+}
+
+.retangulo {
+    background-color: #C4C4C4;
+    width: 300px;
+    height: 190px;
+}
+
+.mais-conteudo h2 {
+    color: #009688;
+    font-weight: bold;
+    font-size: 27px;
+    margin: 0%;
+}
+
+.mais-conteudo p {
+    font-weight: bold; 
+    font-size: 17px;   
+    margin: 0%;
+}
+
+
+
+
+/* Rodapé */
+
+footer {
+    background-color: #2E948A;
+    width: 100%;
+    height: 250px;
+    padding: 1% 2%;
+}
+
+.rodape-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 3% 5%;
+}
+
+.rodape-img {
+    display: flex;
+}   
+
+.imagem-rodape {
+    text-align: left;
+    margin-right: 5%;
+}
+
+.rodape-texto h1 {
+    color: white;
+    font-size: 55px;
+    margin: 0%;
+}
+
+.rodape-texto p {
+    color: white;
+    margin: 0%;
+}
+
+.rodape-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-rodape {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+footer section article {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5%;
+}
+
+.botao {
+    background-color: #2E948A;
+    border-radius: 60px;
+    border: 2px solid white;
+    width: 180px;
+    height: 40px;
+    color: white;
+}
