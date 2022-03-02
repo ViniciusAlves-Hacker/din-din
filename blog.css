@@ -35,6 +35,8 @@ header section {
     display: flex;
     align-items: center;
     padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .cabecalho-menu {
@@ -130,6 +132,7 @@ main article {
     color: #FF4081;
     font-size: 27px;
     font-weight: 900;
+    text-decoration: none;
 }
 
 .conteudo-blog p {

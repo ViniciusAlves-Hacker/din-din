@@ -37,6 +37,8 @@ header section {
     display: flex;
     align-items: center;
     padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .cabecalho-menu {
@@ -152,7 +154,24 @@ main article {
     font-size: 17px;
 }
 
-.curso-home button {
+.botao-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF4081;
+    border-radius: 50px;
+    width: 230px;
+    height: 50px;
+}
+
+.botao-2 a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+/* .curso-home button {
     background-color: #FF4081;
     color: white;
     font-size: 20px;
@@ -160,7 +179,7 @@ main article {
     width: 230px;
     height: 50px;
     border: 0ch;
-}
+} */
 
 .curso-home img {
     width: 275px;
