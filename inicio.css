@@ -196,8 +196,8 @@ main section {
 
 .comentario-individual p {
     font-size: 20px;
-    margin-left: 20px;
-    line-height: 25px;
+    /* margin-left: 20px; */
+    /* line-height: 25px; */
 }
 
 .img-comentarios {
@@ -242,6 +242,22 @@ main section {
     font-weight: bold; 
     font-size: 17px;   
     margin: 0%;
+}
+
+.parte-4 button {
+    background-color: white;
+    border: 2px solid #FF4081;
+    color: #FF4081;
+    font-size: 20px;
+    width: 280px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.botao-mais-conteudo {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 40px 0px;
 }
 
 @media (max-width: 480px) {
