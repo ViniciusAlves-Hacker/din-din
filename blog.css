@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0%;
+    font-family: "ubuntu";
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    width: 100%;
+}
+    
+header section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 2% 4%;
+}
+
+.container-logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.texto-logo {
+    color: white;
+    font-size: 55px;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.menu {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3% 4%;
+}
+
+@media (max-width: 600px) {
+    header {
+        width: 100%;
+        height: 150px;
+        transition: 4s;
+    }
+
+    header section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-logo {
+        margin: 0%;
+    }
+}
+
+
+/* Corpo do site */
+
+
+main section {
+    margin: 2% 4%;
+}
+
+.caixa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4%;
+}
+
+.caixa img {
+    width: 350px;
+}
+
+.cursos {
+    padding: 2% 3%;
+}
+
+.cursos h1 {
+    color: #009688;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.cursos p{
+    font-size: 20px;
+}
+
+main article {
+    background-color: #E5E5E5;
+    margin: 0%;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2% 4%;
+}
+
+.conteudo-blog {
+    margin-top: 7%;
+    padding: 10px;
+}
+
+.retangulo {
+    background-color: #C4C4C4;
+    height: 250px;
+}
+
+.titulo-blog {
+    color: #FF4081;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.conteudo-blog p {
+    font-size: 17px;
+}
+
+@media (max-width: 600px){
+    .caixa img{
+    width: 85%;
+    }
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: #2E948A;
+    width: 100%;
+    padding: 1% 2%;
+}
+
+.rodape-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 3% 5%;
+}
+
+.rodape-img {
+    display: flex;
+}   
+
+.imagem-rodape {
+    text-align: left;
+    margin-right: 5%;
+}
+
+.rodape-texto h1 {
+    color: white;
+    font-size: 55px;
+    margin: 0%;
+}
+
+.rodape-texto p {
+    color: white;
+    margin: 0%;
+}
+
+.rodape-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-rodape {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+footer section article {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5%;
+}
+
+.botao {
+    background-color: #2E948A;
+    border-radius: 60px;
+    border: 2px solid white;
+    width: 180px;
+    height: 40px;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    footer {
+        width: 100%;
+        height: 30%;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rodape-menu {
+        margin-top: 5%;
+    }
+
+    .borda-rodape {
+        margin-top: 5%;
+    }
+}
